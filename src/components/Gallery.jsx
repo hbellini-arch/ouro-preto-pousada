@@ -10,7 +10,7 @@ const GALLERY_ITEMS = [
   {
     title: "As Alamedas Floridas",
     subtitle: "Alamedas floridas e chalés coloniais iluminados por arandelas ao entardecer.",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDViawxnHkap0PqIPFx09EFCdrYs_IzEuD8PHrUo7GvvS2NNSF32q-UXxNTOANAUFpwh-bK2cscrQuE2busoOCcpZduaDgQ2xiCpk6gx_HnbI1eGRIX5b_PE6lGHLlSgGsbUGJ2Bj6QWj_PK5et-MmfyPcatLZxmvtVUqgZKqNVwuGaYjDbekOsZyL8c8KVtpNppvXeSNLlpa4VOmFaJc1ph1hc-EvaJkNM8jdJoEIpdg2epLn6swuMItfUxucA8ergoLU"
+    src: "./public/images/alamedas_floridas.jpg"
   },
   {
     title: "Pátio Colonial & Jardins",

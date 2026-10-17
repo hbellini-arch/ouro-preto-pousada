@@ -25153,7 +25153,7 @@ var import_react7 = __toESM(require_react(), 1);
 var import_jsx_runtime7 = __toESM(require_jsx_runtime(), 1);
 function Experiences() {
   const [showColor, setShowColor] = (0, import_react7.useState)(false);
-  const imageUrl = "/images/rio_sucuri_bonito.jpg";
+  const imageUrl = "./public/images/rio_sucuri_bonito.jpg";
   const cards = [
     {
       icon: "water_drop",

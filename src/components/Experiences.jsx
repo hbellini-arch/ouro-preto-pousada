@@ -5,7 +5,7 @@ export default function Experiences() {
   const [showColor, setShowColor] = useState(false);
 
   // Imagem enviada das águas cristalinas com piraputangas de Bonito
-  const imageUrl = "/images/rio_sucuri_bonito.jpg";
+  const imageUrl = "./public/images/rio_sucuri_bonito.jpg";
 
   const cards = [
     {

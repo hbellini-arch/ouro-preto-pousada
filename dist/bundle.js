@@ -25247,7 +25247,7 @@ var GALLERY_ITEMS = [
   {
     title: "P\xE1tio Colonial & Jardins",
     subtitle: "P\xE1tio de pedras r\xFAsticas, vegeta\xE7\xE3o preservada e tranquilidade campestre.",
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAC-K0miKwMTCEZzH9BCdk8I3Sg3wnXsfO1PQ8IACm_A8Dpk19m0r-UFj07et__SR0PTcyj7oNFugM1efQgoB-8d3iKqrvUz5g-4MPDmOQvpjA4Y_F9HjgFKAe0p6Ax9IhNbEQMuaxV19_vil1eRfaNB90YPD2tps-lvuBcPfv4GasGoLKlBduMG8lMcIjQAbEUup1vdIvox3fetoDSL8EjjaYzayTUgDzrsFyWVZSvYqmQ7SOaqZJS5-t4ZlxCTgd9Ce0"
+    src: "./public/images/patio_colonial_jardins.jpg"
   },
   {
     title: "A Piscina Colonial",

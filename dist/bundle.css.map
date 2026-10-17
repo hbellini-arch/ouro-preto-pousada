@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": ["@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n  html, body {\n    margin: 0;\n    padding: 0;\n  }\n}\n\n/* Efeito S\u00E9pia Hist\u00F3rico Envelhecido Aut\u00EAntico do S\u00E9culo XIX */\n.vintage-sepia {\n  filter: sepia(0.88) contrast(1.15) brightness(0.92) saturate(0.85);\n  transition: filter 700ms cubic-bezier(0.4, 0, 0.2, 1), opacity 700ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.vintage-sepia-off {\n  filter: sepia(0) contrast(1) brightness(1) saturate(1);\n}\n"],
+  "mappings": ";AAAA,UAAU;AACV,UAAU;AACV,UAAU;AAEV;AACE;AAAA,EAAM;AACJ,YAAQ;AACR,aAAS;AACX;AACF;AAGA,CAAC;AACC,UAAQ,MAAM,MAAM,SAAS,MAAM,WAAW,MAAM,SAAS;AAC7D,cAAY,OAAO,MAAM,aAAa,GAAG,EAAE,CAAC,EAAE,GAAG,EAAE,EAAE,EAAE,QAAQ,MAAM,aAAa,GAAG,EAAE,CAAC,EAAE,GAAG,EAAE;AACjG;AAEA,CAAC;AACC,UAAQ,MAAM,GAAG,SAAS,GAAG,WAAW,GAAG,SAAS;AACtD;",
+  "names": []
+}

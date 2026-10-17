@@ -1,0 +1,38 @@
+import esbuild from 'esbuild-wasm';
+import { execSync } from 'child_process';
+import fs from 'fs';
+import path from 'path';
+
+export async function build() {
+  console.log('[build] Compiling bundle.js with esbuild-wasm...');
+  if (!fs.existsSync('dist')) {
+    fs.mkdirSync('dist', { recursive: true });
+  }
+
+  await esbuild.build({
+    entryPoints: ['src/main.jsx'],
+    bundle: true,
+    outfile: 'dist/bundle.js',
+    format: 'esm',
+    loader: { '.jsx': 'jsx', '.js': 'jsx' },
+    jsx: 'automatic',
+    minify: false,
+    sourcemap: true,
+  });
+  console.log('[build] Bundle compiled successfully!');
+
+  console.log('[build] Compiling Tailwind CSS...');
+  try {
+    execSync('npx tailwindcss -i ./src/index.css -o ./dist/style.css', { stdio: 'inherit' });
+    console.log('[build] CSS compiled successfully!');
+  } catch (err) {
+    console.error('[build] CSS compilation warning:', err.message);
+  }
+}
+
+if (process.argv[1] && process.argv[1].endsWith('build.js')) {
+  build().catch(err => {
+    console.error('[build] Error:', err);
+    process.exit(1);
+  });
+}
